@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    <link rel="icon" href="logo for browser/logo_vector.png">
+    <title>Plants</title>
+</head>
+<body>
+    <div class="main_wrapper">
+        <header class="header">
+            <div class="header__wrapper">
+                <div class="header__logo">
+                    <img src="logo for browser/logo_vector.png" alt="logo" class="logo__img">
+                </div>
+                <div class="header__title">
+                    <div>Plants</div>
+                </div>
+            </div>
+            <nav class="navigation">
+                <div class="navigation__item">
+                    <a href="#" class="navigation__link">Home</a>
+                </div>
+                <div class="navigation__item">
+                    <a href="#" class="navigation__link">About us</a>
+                </div>
+                <div class="navigation__item">
+                    <a href="#" class="navigation__link">Service</a>
+                </div>
+                <div class="navigation__item">
+                    <a href="#" class="navigation__link">Price</a>
+                </div>
+                <div class="navigation__item">
+                    <a href="#" class="navigation__link">Contacts</a>
+                </div>
+            </nav>
+        </header>
+        <main class="content">
+            <section class="content__block">
+                <div class="content__image">
+                    <img src="images/leaf 1.png" alt="image of leaf" class="content__bg-image1">
+                    <img src="images/leaf 2.png" alt="image of leaf" class="content__bg-image2">
+                    <img src="images/leaf 3.png" alt="image of leaf" class="content__bg-image3">
+                    <img src="images/leaf 4.png" alt="image of leaf" class="content__bg-image4">
+                    <img src="images/leaf 5.png" alt="image of leaf" class="content__bg-image5">
+                </div>
+                <div class="content__wrapper">
+                    <div class="content__block_title">
+                        <p>We grow 
+                            <span class="highlite_green_inter">plants</span>
+                            and give you oxygen
+                        </p>
+                    </div>
+                    <div class="content__block_text">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                        </p>
+                    </div>
+                    <div class="content__block_button">
+                        <button>
+                            LEARN MORE
+                        </button>
+                    </div>
+                </div>
+            </section>
+            <section class="content__block2">
+                <div class="content__wrapper2">
+                    <div class="content__block_title2">
+                        <p>We are <span class="highlite_orange_inika">professional experienced</span>
+                            gardeners
+                        </p>
+                    </div>
+                    <div class="content__block_text2">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+                        </p>
+                    </div>
+                </div>
+                <div class="content__image2">
+                    <img src="images/houseplant 1.png" alt="image of house plant" class="content__bg2-image1">
+                </div>
+            </section>
+            <section class="content__block_projects">
+                <div class="content__block_projects__wrapper">
+                    <div class="content__block_projects__title">
+                        <span>Service and our projects
+                        </span>
+                    </div>
+                    <div class="content__block_projects__button">
+                        <button class="project__button garden" id="garden_button" onclick="elementBlur('garden')">Gardens</button>
+                        <button class="project__button lawn" id="lawn_button" onclick="elementBlur('lawn')">Lawm</button>
+                        <button class="project__button planting" id="planting_button" onclick="elementBlur('planting')">Planting</button>
+                    </div>
+                </div>
+                <div class="content__block_projects__grid">
+                    <div class="content__card garden">
+                        <img src="images/project0.png" alt="" class="content__card--image">
+                        <span class="content__card--title">Garden care</span>
+                        <span class="content__card--discription">Lorem Ipsum has been the industry</span>
+                    </div>
+                    <div class="content__card planting">
+                        <img src="images/project1.png" alt="" class="content__card--image">
+                        <span class="content__card--title">Planting</span>
+                        <span class="content__card--discription">Lorem Ipsum has been the industry</span>
+                    </div>
+                    <div class="content__card lawn">
+                        <img src="images/project2.png" alt="" class="content__card--image">
+                        <span class="content__card--title">Lawn care</span>
+                        <span class="content__card--discription">Lorem Ipsum has been the industry</span>
+                    </div>
+                    <div class="content__card planting">
+                        <img src="images/project3.png" alt="" class="content__card--image">
+                        <span class="content__card--title">Planting</span>
+                        <span class="content__card--discription">Lorem Ipsum has been the industry</span>
+                    </div>
+                    <div class="content__card garden">
+                        <img src="images/project4.png" alt="" class="content__card--image">
+                        <span class="content__card--title">Garden care</span>
+                        <span class="content__card--discription">Lorem Ipsum has been the industry</span>
+                    </div>
+                    <div class="content__card planting">
+                        <img src="images/project5.png" alt="" class="content__card--image">
+                        <span class="content__card--title">Planting</span>
+                        <span class="content__card--discription">Lorem Ipsum has been the industry</span>
+                    </div>
+                </div>
+                <div class="content__block_prices">
+                    <div class="block_prices__wrapper">
+                        <div class="block_prices__title">
+                            <span>Prices</span>
+                        </div>
+                        <div class="price__choose__wrapper">
+                            <div class="price__choose">
+                                <span class="price__choose-variant">Basic</span>
+                                <img src="images/Ellipse 5.png" alt="elipse" class="price_choose_trigger">
+                            </div>
+                            <div class="price__choose">
+                                <span class="price__choose-variant">Standart</span>
+                                <img src="images/Ellipse 5.png" alt="elipse" class="price_choose_trigger">
+                            </div>
+                            <div class="price__choose">
+                                <span class="price__choose-variant">Pro-care</span>
+                                <img src="images/Ellipse 5.png" alt="elipse" class="price_choose_trigger">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="block_prices__descpition">
+                        <span class="description__title">Our best <span class="green__highlight">gardeners</span> are ready to help you</span>
+                        <button class="description__button">Contact us</button>
+                        <div class="description__image">
+                            <img src="images/leaf_4_in1.PNG" alt="blur leaf" class="description__bg-image">
+                        </div>
+                    </div>
+                </div>
+                <div class="content__block_contacts">
+                    <div class="contacts__image">
+                        <img src="images/contact_woman 1.png" alt="contact_woman">
+                    </div>
+                    <div class="contacts__title">
+                        <span>Contact us</span>
+                    </div>
+                    <div class="contacts_choose_city">
+                        <!-- Заполнить -->
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="footer__copyright">
+                <span>©</span>
+                <span>2022</span>
+                <span>github</span>
+            </div>
+            <div class="footer__school">
+                <span>Rolling Scopes School</span>
+            </div>
+            <div class="footer__socialmedia">
+                <img src="images/Vector (1).png" alt="instagramm">
+                <img src="images/Vector (2).png" alt="facebook">
+                <img src="images/Vector (3).png" alt="twitter">
+                <img src="images/Vector (4).png" alt="pinterest">
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
